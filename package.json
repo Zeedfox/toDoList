@@ -1,9 +1,11 @@
 {
+  "homepage": "https://Zeedfox.github.io/toDoList",
   "name": "todolist-v1",
   "version": "1.0.0",
   "description": "a web app of to do list",
   "main": "app.js",
   "scripts": {
+    "deploy":"gh-pages -d todolist-v1"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Antonio Balderas",
@@ -12,5 +14,8 @@
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
